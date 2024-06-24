@@ -162,7 +162,7 @@ section {
     opacity: 1;
 }
 .contactform {
-            width: 100%;
+            width: calc(100% - 200px);
             max-width: 600px;
             margin: 50px auto;
             background: #fff;
@@ -171,17 +171,17 @@ section {
             border-radius: 8px;
         }
 input, textarea {
-            width: 100%;
+            width: 75%;
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
         button {
-            width: 100%;
-            padding: 10px;
             border: none;
+            width: 75%;
             background: #333;
+            padding: 10px;
             color: #fff;
             font-size: 16px;
             border-radius: 4px;
