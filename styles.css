@@ -23,17 +23,17 @@ body {
 }
 h2 {
     font-size: 50px;
+    padding-top: 50px;
 }
 
 p {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    text-align: center;
     color: black;
+    width: 75%; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+
 }
 
 .slider-thumb::before {
@@ -107,7 +107,8 @@ p {
     padding: 0; 
 }
 section {
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   width: 100%;
   background-color: white;
   margin-top: 100px;
